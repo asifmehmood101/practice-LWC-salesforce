@@ -1,0 +1,9 @@
+<!-- data binding in a template -->
+<template>
+    <lightning-card  title="First Component">
+            <lightning-button label="New" slot="actions"></lightning-button>
+            <p class="slds-p-horizontal_small">Card Body {greeting}</p>
+            <lightning-input label="Name" value={greeting} onchange={handleChange} class="input"></lightning-input>
+            <p slot="footer">Card Footer</p>
+    </lightning-card>
+</template>
