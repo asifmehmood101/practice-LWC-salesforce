@@ -1,3 +1,6 @@
+### Playlist for Lightning Web component
+[playList](https://www.youtube.com/playlist?list=PLVILwsgb1PomkLiLDQOCb9MKDW3le7I5N)
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
