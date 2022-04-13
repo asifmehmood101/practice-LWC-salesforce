@@ -1,6 +1,13 @@
-import { LightningElement } from 'lwc';
+import {api, LightningElement } from 'lwc';
 
 export default class RenderList extends LightningElement {
+
+    @api btnText;
+
+
+    handleClick() {
+        alert("hello")
+    }
 
     contacts = [
         {

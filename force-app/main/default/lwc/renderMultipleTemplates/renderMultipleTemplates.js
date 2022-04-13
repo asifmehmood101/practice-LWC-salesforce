@@ -1,6 +1,7 @@
 import { LightningElement } from 'lwc';
 import temlateOne from "./templateOne.html";
 import temlateTwo from "./templateTwo.html";
+
 export default class RenderMultipleTemplates extends LightningElement {
 
     temlateOne = true;
