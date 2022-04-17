@@ -2,15 +2,17 @@
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>54.0</apiVersion>
     <isExposed>true</isExposed>
-    <targets>
+ <targets>
         <target>lightningCommunity__Page</target>
         <target>lightningCommunity__Default</target>
-    </targets>
-    <targetConfigs>
+ </targets>
+
+ <targetConfigs>
         <targetConfig targets="lightningCommunity__Default">
             <property name="_title" type="String" default="Show to title"></property>
             <property name="message" type="String" default="Show message"></property>
-            <property name="varient" type="String" default="success"></property>
+            <property name="_variant" type="String" default="success"></property>
         </targetConfig>
-    </targetConfigs>
+</targetConfigs>
+
 </LightningComponentBundle>
